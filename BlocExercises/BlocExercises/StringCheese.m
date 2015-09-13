@@ -12,6 +12,13 @@
 
 - (NSString *) favoriteCheeseStringWithCheese:(NSString *)cheeseName {
     /* WORK HERE */
+    
+return [NSString stringWithFormat:@"My favorite cheese is %@.", cheeseName];
+    
+//    NSString *fullSentence = [cheese favoriteCheeseStringWithCheese:@"cheddar"];
+//    // fullSentence is "My favorite cheese is cheddar."
+//    NSLog(@"My favorite cheese is %@", cheeseName);
+    
     return nil;
 }
 

@@ -1,4 +1,4 @@
-ios-exercises
+This is a test.
 =============
 
 - `BlocExercises.xcodeproj` contains the Xcode project with iOS exercises.
