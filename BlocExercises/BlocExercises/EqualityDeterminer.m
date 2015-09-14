@@ -10,6 +10,7 @@
 
 @implementation EqualityDeterminer
 
+
 - (BOOL) string:(NSString *)string1 isTheSameAsString:(NSString *)string2 {
     /* WORK HERE */
     return (string1 == string2);
