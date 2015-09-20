@@ -49,6 +49,12 @@
     fullCheeseString = @"Ambert cheese";
     cheeseNameOnly = [self.stringCheese cheeseNameWithoutCheeseSuffix:fullCheeseString];
     XCTAssertEqualObjects(cheeseNameOnly, @"Ambert", @"Ambert should be returned.");
+    
+    
+    fullCheeseString = @"Parmesan";
+    cheeseNameOnly = [self.stringCheese cheeseNameWithoutCheeseSuffix:fullCheeseString];
+    XCTAssertEqualObjects(cheeseNameOnly, @"Parmesan", @"Parmesan should be returned.");
+    
 }
 
 - (void)testThatRemovingCheeseSuffixWorksWithUppercaseC {

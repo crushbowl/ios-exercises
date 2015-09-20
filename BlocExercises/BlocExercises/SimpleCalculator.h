@@ -45,7 +45,7 @@
  
  @return Returns the sum of the two numbers.
  */
-- (NSInteger) addNumber:(NSInteger) number1 toNumber:(NSInteger) number2;
+- (NSInteger) addNumber:(NSInteger) bob toNumber:(NSInteger) number2;
 
 /**
  Determines the remainder when one number is divided by another.
