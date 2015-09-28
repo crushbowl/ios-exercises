@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface MarysAppleHandler : NSObject
+
 
 @property (nonatomic, assign) BOOL getsDiscount;
 
@@ -29,7 +31,10 @@
  
  @return Returns an item phrase.
  */
+
 - (NSString *) itemMaryCanPurchaseForDollars:(NSInteger)dollars;
+
+
 
 /**
  Indicates the cost of Apple-flavored vodka in dollars.
@@ -48,5 +53,10 @@
  @return @c 24 if @c getsDiscount is set to @c NO; otherwise @c 18.
  */
 - (NSUInteger) dollarCostForAppleFlavoredVodka;
+
+
+
+
+
 
 @end

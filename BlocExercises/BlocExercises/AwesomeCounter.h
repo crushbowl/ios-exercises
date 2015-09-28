@@ -30,6 +30,6 @@
  
  @return Returns a string of numbers between two numbers, inclusively.
  */
-- (NSString *) stringWithNumbersBetweenNumber:(NSInteger)number andOtherNumber: (NSInteger)otherNumber;
+- (NSString *) stringWithNumbersBetweenNumber:(NSInteger)firstNumber andOtherNumber: (NSInteger)secondNumber;
 
 @end
